@@ -56,7 +56,8 @@ _842._outerWidth(opts.width)._outerHeight(opts.height);
 _844._outerWidth(_842.width()-_846);  
 _844.css({height:_842.height()+"px",lineHeight:_842.height()+"px"});  
 _845._outerHeight(_842.height());  
-_843.panel("resize",{width:(opts.panelWidth?opts.panelWidth:_842.outerWidth()),height:opts.panelHeight});  
+_843.panel("resize",{width:(opts.panelWidth?opts.panelWidth:_842.outerWidth()),
+			height:opts.panelHeight});  
 _842.insertAfter(_83f);  
 }; 
 ```
